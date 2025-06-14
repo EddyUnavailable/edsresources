@@ -1,0 +1,116 @@
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: Arial, sans-serif;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  color: #222;
+}
+
+.table {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.header {
+  display: flex;
+  font-weight: bold;
+  background-color: #f0f0f0;
+  padding: 0.75rem 0.5rem;
+  border-bottom: 2px solid #ccc;
+}
+
+.row {
+  display: flex;
+  background-color: #fff;
+  padding: 0.75rem 0.5rem;
+  border-bottom: 1px solid #eee;
+}
+
+.cell {
+  flex: 1;
+  padding: 0 0.5rem;
+  word-break: break-word;
+}
+
+.link {
+  color: #0070f3;
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+/* styles/blenderAssets.module.css */
+
+.container {
+  padding: 2rem;
+  font-family: sans-serif;
+  background-color: #f9f9f9;
+  color: #222;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.section {
+  margin-bottom: 2rem;
+}
+
+.category {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 0.5rem;
+}
+
+.flexGrid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem 2rem;
+}
+
+.flexItem {
+  flex: 1 1 calc(33.333% - 2rem);
+  min-width: 200px;
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 0.75rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.name {
+  font-weight: 500;
+  margin-bottom: 0.25rem;
+}
+
+.key {
+  font-family: monospace;
+  background-color: #eee;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+.keymapLink {
+  margin-top: 2rem;
+  font-size: 0.95rem;
+  text-align: center;
+}
+
+.keymapLink a {
+  color: #ff9900;
+  text-decoration: underline;
+}
