@@ -21,7 +21,7 @@ export default function GitHub() {
             On the GitHub homepage, create a new repository:
             <ul className={styles.sublist}>
               <li>
-                In the left sidebar, under <strong>"Top Repositories"</strong>, click the green <strong>New</strong> button.
+                In the left sidebar, under <strong>&quot;Top Repositories&quot;</strong>, click the green <strong>New</strong> button.
               </li>
               <li>
                 Or click the <strong>+ icon</strong> in the top-right corner next to your profile picture, then select <strong>New repository</strong>.
@@ -113,7 +113,7 @@ git commit -m "Initial commit: Set up Next.js app"`}</code>
         <h3 className={styles.subheading}>✅ If you DID initialize the GitHub repo with a README</h3>
         <ul className={styles.list}>
           <li>
-            You&apos;ll need to merge histories:
+            You'll need to merge histories:
             <pre className={styles.codeBlock}>
               <code>git pull origin main --allow-unrelated-histories</code>
             </pre>
