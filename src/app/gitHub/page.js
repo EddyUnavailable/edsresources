@@ -59,10 +59,8 @@ export default function GitHub() {
           <li>
             Clone your GitHub repo:
             <pre className={styles.codeBlock}>
-              <code>
-                git clone https://github.com/your-username/my-nextjs-app.git{''}
-                cd my-nextjs-app
-              </code>
+              <code>{`git clone https://github.com/your-username/my-nextjs-app.git
+cd my-nextjs-app`}</code>
             </pre>
           </li>
           <li>
@@ -76,7 +74,7 @@ export default function GitHub() {
                 Or use full flags to skip prompts:
                 <pre className={styles.codeBlock}>
                   <code>
-                    npx create-next-app@latest . --typescript --eslint --tailwind --app --src-dir --import-alias "@/*"
+{`npx create-next-app@latest . --typescript --eslint --tailwind --app --src-dir --import-alias "@/*"`}
                   </code>
                 </pre>
               </li>
@@ -90,8 +88,7 @@ export default function GitHub() {
             Visit{' '}
             <a href="http://localhost:3000" target="_blank" rel="noopener noreferrer" className={styles.link}>
               http://localhost:3000
-            </a>
-            {' '}to see the default Next.js app.
+            </a>{' '}to see the default Next.js app.
           </li>
           <li>
             Open the project in VS Code:
@@ -102,10 +99,8 @@ export default function GitHub() {
           <li>
             Stage and commit your changes:
             <pre className={styles.codeBlock}>
-              <code>
-                git add .{''}
-                git commit -m "Initial commit: Set up Next.js app"
-              </code>
+              <code>{`git add .
+git commit -m "Initial commit: Set up Next.js app"`}</code>
             </pre>
           </li>
         </ul>
@@ -120,17 +115,13 @@ export default function GitHub() {
           <li>
             You'll need to merge histories:
             <pre className={styles.codeBlock}>
-              <code>
-                git pull origin main --allow-unrelated-histories
-              </code>
+              <code>git pull origin main --allow-unrelated-histories</code>
             </pre>
             <p>Resolve any merge conflicts if needed, then:</p>
             <pre className={styles.codeBlock}>
-              <code>
-                git add .{''}
-                git commit -m "Merge GitHub README with local Next.js app"{''}
-                git push -u origin main
-              </code>
+              <code>{`git add .
+git commit -m "Merge GitHub README with local Next.js app"
+git push -u origin main`}</code>
             </pre>
           </li>
         </ul>
@@ -140,11 +131,9 @@ export default function GitHub() {
           <li>
             You can push without any extra steps:
             <pre className={styles.codeBlock}>
-              <code>
-                git remote add origin https://github.com/your-username/my-nextjs-app.git{''}
-                git branch -M main{''}
-                git push -u origin main
-              </code>
+              <code>{`git remote add origin https://github.com/your-username/my-nextjs-app.git
+git branch -M main
+git push -u origin main`}</code>
             </pre>
           </li>
         </ul>
