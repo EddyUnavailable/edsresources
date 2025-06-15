@@ -109,7 +109,7 @@ export default function TTSList() {
       <div className={styles.headerBox}>
         <h1 className={styles.heading}>Top 10 Free &amp; Freemium TTS Providers</h1>
         <p className={styles.intro}>
-          Here's a comparison of top text-to-speech services offering free tiers or APIs. This list includes major cloud providers and indie platforms for quick testing or advanced voice projects.
+          Here&apos;s a comparison of top text-to-speech services offering free tiers or APIs. This list includes major cloud providers and indie platforms for quick testing or advanced voice projects.
         </p>
       </div>
       <table className={styles.table}>

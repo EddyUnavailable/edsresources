@@ -113,7 +113,7 @@ git commit -m "Initial commit: Set up Next.js app"`}</code>
         <h3 className={styles.subheading}>✅ If you DID initialize the GitHub repo with a README</h3>
         <ul className={styles.list}>
           <li>
-            You'll need to merge histories:
+            You&apos;ll need to merge histories:
             <pre className={styles.codeBlock}>
               <code>git pull origin main --allow-unrelated-histories</code>
             </pre>
@@ -138,7 +138,7 @@ git push -u origin main`}</code>
           </li>
         </ul>
 
-        <p className={styles.note}>💡 <strong>Why this matters:</strong> Git treats the GitHub repo and your local app as two separate histories if both have initial commits. You must merge them or Git won’t allow a direct push.</p>
+        <p className={styles.note}>💡 <strong>Why this matters:</strong> Git treats the GitHub repo and your local app as two separate histories if both have initial commits. You must merge them or Git won&apos;t allow a direct push.</p>
       </section>
     </div>
   );
