@@ -15,7 +15,8 @@ export default function GitHub() {
             Go to{' '}
             <a href="https://github.com/" target="_blank" rel="noopener noreferrer" className={styles.link}>
               https://github.com/
-            </a>{' '}and sign in.
+            </a>{' '}
+            and sign in.
           </li>
           <li>
             On the GitHub homepage, create a new repository:
@@ -31,7 +32,9 @@ export default function GitHub() {
           <li>
             Fill out the repository form:
             <ul className={styles.sublist}>
-              <li><strong>Repository name</strong>: <code className={styles.codeInline}>my-nextjs-app</code></li>
+              <li>
+                <strong>Repository name</strong>: <code className={styles.codeInline}>my-nextjs-app</code>
+              </li>
               <li><strong>Description</strong>: Optional</li>
               <li><strong>Visibility</strong>: Choose Public or Private</li>
               <li>
@@ -42,7 +45,8 @@ export default function GitHub() {
           </li>
           <li>Click <strong>Create repository</strong>.</li>
           <li>
-            Copy your repo URL: <code className={styles.codeInline}>https://github.com/your-username/my-nextjs-app.git</code>
+            Copy your repo URL:{' '}
+            <code className={styles.codeInline}>https://github.com/your-username/my-nextjs-app.git</code>
           </li>
         </ul>
       </section>
@@ -53,8 +57,14 @@ export default function GitHub() {
         <ul className={styles.list}>
           <li>
             Make sure Node.js (v18 or later) is installed:
-            <pre className={styles.codeBlock}><code>node -v</code></pre>
-            Download from <a href="https://nodejs.org" target="_blank" rel="noopener noreferrer" className={styles.link}>nodejs.org</a> if needed.
+            <pre className={styles.codeBlock}>
+              <code>node -v</code>
+            </pre>
+            Download from{' '}
+            <a href="https://nodejs.org" target="_blank" rel="noopener noreferrer" className={styles.link}>
+              nodejs.org
+            </a>{' '}
+            if needed.
           </li>
           <li>
             Clone your GitHub repo:
@@ -74,7 +84,7 @@ cd my-nextjs-app`}</code>
                 Or use full flags to skip prompts:
                 <pre className={styles.codeBlock}>
                   <code>
-{`npx create-next-app@latest . --typescript --eslint --tailwind --app --src-dir --import-alias "@/*"`}
+                    {`npx create-next-app@latest . --typescript --eslint --tailwind --app --src-dir --import-alias "@/*"`}
                   </code>
                 </pre>
               </li>
@@ -88,7 +98,8 @@ cd my-nextjs-app`}</code>
             Visit{' '}
             <a href="http://localhost:3000" target="_blank" rel="noopener noreferrer" className={styles.link}>
               http://localhost:3000
-            </a>{' '}to see the default Next.js app.
+            </a>{' '}
+            to see the default Next.js app.
           </li>
           <li>
             Open the project in VS Code:
@@ -113,7 +124,7 @@ git commit -m "Initial commit: Set up Next.js app"`}</code>
         <h3 className={styles.subheading}>✅ If you DID initialize the GitHub repo with a README</h3>
         <ul className={styles.list}>
           <li>
-            You'll need to merge histories:
+            You&apos;ll need to merge histories:
             <pre className={styles.codeBlock}>
               <code>git pull origin main --allow-unrelated-histories</code>
             </pre>
@@ -138,7 +149,9 @@ git push -u origin main`}</code>
           </li>
         </ul>
 
-        <p className={styles.note}>💡 <strong>Why this matters:</strong> Git treats the GitHub repo and your local app as two separate histories if both have initial commits. You must merge them or Git won&apos;t allow a direct push.</p>
+        <p className={styles.note}>
+          💡 <strong>Why this matters:</strong> Git treats the GitHub repo and your local app as two separate histories if both have initial commits. You must merge them or Git won&apos;t allow a direct push.
+        </p>
       </section>
     </div>
   );
